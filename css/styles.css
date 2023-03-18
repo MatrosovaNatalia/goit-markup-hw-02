@@ -1,11 +1,66 @@
 
-
-.header{
-    font-family: 'Raleway', sans-serif;
-    background-color:#E7E9FC ;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#fff;
 }
+.list {
+list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* -------htader----- */
+    .header {
+
+    }
+    .header-navigation {
+    }
+    .header-logo {
+    }
+    .header-list {
+    }
+    .header-item {
+        
+    }
+    .header-link {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #2E2F42;
+    }
+    .header-mailto {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+    }
+    .header-phone {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+    }
+  .main-btn {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+
+  }  
 .section1{
     background-color: #2E2F42;
+
+}
+.section-list {
 
 }
 .Solutions{
@@ -16,11 +71,8 @@
     display: flex;
     flex-direction: row;
 }
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color:#fff;
 
-}
+
 .footer{
     background-color: #2E2F42;
 }
