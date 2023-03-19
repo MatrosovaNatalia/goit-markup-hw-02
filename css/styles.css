@@ -17,6 +17,16 @@ list-style: none;
     .header-navigation {
     }
     .header-logo {
+ font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height:1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
     }
     .header-list {
     }
@@ -30,6 +40,9 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #2E2F42;
+    }
+    .header-link:is(:hover,:focus )   {
+        color: #404bbf;
     }
     .header-mailto {
 font-weight: 400;
@@ -63,11 +76,24 @@ color:#404bbf ;
   /* section */
 
 .section-list {
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height:1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 
 }
 .button-list {
-  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;  
+    background: #404BBF;
 }    
 .button-list:hover {
     color:#404bbf ;
@@ -81,8 +107,11 @@ color:#404bbf ;
 .list {
 }
 .section-button-list {
+
 }
+
 .section-button {
+    
 }
 .button {
 }
