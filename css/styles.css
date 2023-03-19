@@ -10,7 +10,7 @@ list-style: none;
     text-decoration: none;
 }
 
-/* -------htader----- */
+/* -------header----- */
     .header {
 
     }
@@ -44,6 +44,7 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
     }
+
   .main-btn {
 font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -56,12 +57,33 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 
   }  
-.section1{
-    background-color: #2E2F42;
+  .main-btn:hover {
+color:#404bbf ;
+  }
+  /* section */
 
-}
 .section-list {
 
+
+}
+.button-list {
+  
+}    
+.button-list:hover {
+    color:#404bbf ;
+}
+.button-list:focus {
+    color: #404bbf;
+}
+.section-list {
+}
+.list {
+}
+.section-button-list {
+}
+.section-button {
+}
+.button {
 }
 .Solutions{
     color:#fff;
