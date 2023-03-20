@@ -5,7 +5,9 @@ body {
 .list {
     list-style: none;
 }
-
+.link {
+    text-decoration: none;
+}
 .header {
     background-color: #FFFFFF;
 }
