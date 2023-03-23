@@ -9,6 +9,19 @@
     --lighh: #f4f4fd;
     --white-background: #ffffff;
 }
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
 body {
     font-family:"Roboto",sans-serif;
     color: #434455;
@@ -21,8 +34,16 @@ body {
 .link {
     text-decoration: none;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 .header {
     background-color: #FFFFFF;
+    padding-top: 32px;
 }
 .header-logo {  
  font-family: 'Raleway', sans-serif;
@@ -96,6 +117,7 @@ color: #434455;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .hero-button {
     background: #4D5AE5;
@@ -109,6 +131,8 @@ color: #434455;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    margin-bottom: 20px;
+    margin: 0 auto;
 }
 .hero-button:hover {
 color:  #404BBF;
@@ -123,7 +147,8 @@ color:  #404BBF;
 }
 .about-item {
 }
-.about-text {
+.about-text 
+{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
