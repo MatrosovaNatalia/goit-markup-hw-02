@@ -155,9 +155,10 @@ color:var(--color-slate);
 color:  #404BBF;
 }
 .hero-button:focus {
-    color:  #404BBF;  
+    color:  #404BBF;
+}  
    /* --------------about----------- */
-}
+
 .about-list {
 }
 .list {
