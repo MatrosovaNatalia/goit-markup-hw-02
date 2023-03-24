@@ -238,7 +238,7 @@ color: #434455;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color:var(--color-iris);
 }
 .footer-logo-studio {
     font-family: "Raleway",sans-serif;
@@ -251,6 +251,12 @@ color: #434455;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: #F4F4FD;  
+}
+.footer-logo:hover {
+    color: blueviolet;
+}
+.footer-logo-studio:hover {
+    color: blue;
 }
 .footer-text {
 font-size: 16px;
