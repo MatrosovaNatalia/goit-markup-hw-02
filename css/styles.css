@@ -136,7 +136,7 @@ color:var(--color-slate);
 }
 /* ----------------Hero-------------------- */
 .hero {
-    height: 400px;
+    height: 600px;
     background: #2E2F42;
     padding-top : 108px;
    
@@ -172,7 +172,9 @@ color:var(--color-slate);
     border-radius: 4px;
     padding: 16px 32px;
 }
-
+.btn {
+    margin-top: 48px;
+}
 .hero-button:hover {
     background-color: #404BBF;
 color:  #404BBF;
@@ -183,14 +185,23 @@ color:  #404BBF;
    /* --------------about----------- */
 
 .about-list {
-    display: flex;
+    display: flex; 
+padding: 120px;
+margin: 120px 0px 120px 0px;
+    
+    
 }
 .list {
 }
 .about-item {
+    
+flex-basis: calc ((100%-72px)/4);
+    
 }
 .about-containor {
-    height: 104px;
+    height: 344px;
+
+   
 }
 .about-text 
 {
@@ -222,6 +233,11 @@ color:var();
 }
 .work-list {
     display: flex;
+    right: 24px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+   
 }
 .list {
 }
